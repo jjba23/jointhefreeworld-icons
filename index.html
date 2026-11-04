@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project icons — Tela palette</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f9f9f9; --panel: #ffffff; --ink: #263238; --muted: #5c6b73;
+    --line: #e0e4e6; --accent: #5294e2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1c2329; --panel:#232c33; --ink:#f2f2f2; --muted:#a7b3ba;
+             --line:#2f3a42; --accent:#66bcff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.55 "Cantarell","Noto Sans",system-ui,sans-serif; }
+  header { max-width:1180px; margin:0 auto; padding:3.5rem 1.5rem 1.5rem; }
+  h1 { font-size:clamp(1.7rem,4vw,2.6rem); margin:0 0 .4rem; letter-spacing:-.02em; }
+  header p { margin:0; color:var(--muted); max-width:62ch; }
+  main { max-width:1180px; margin:0 auto; padding:1rem 1.5rem 4rem;
+          display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:14px;
+           padding:1.1rem 1rem 1rem; text-align:center; }
+  .card img { image-rendering:auto; display:block; margin:0 auto .7rem; }
+  .card h2 { font-size:.98rem; margin:0 0 .3rem; letter-spacing:-.01em; }
+  .card p { margin:0; font-size:.78rem; color:var(--muted); }
+  .files { margin-top:.7rem !important; display:flex; align-items:center;
+            justify-content:center; gap:.45rem; }
+  .files a { color:var(--accent); text-decoration:none; }
+  .files a:hover { text-decoration:underline; }
+  .swatch { width:.8rem; height:.8rem; border-radius:50%;
+             border:1px solid rgba(0,0,0,.15); display:inline-block; }
+  footer { max-width:1180px; margin:0 auto; padding:0 1.5rem 3rem;
+            color:var(--muted); font-size:.82rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>jointhefreeworld-icons</h1>
+  <p>One hand-drawn icon per project in <code>~/Hacking</code>, drawn the way Tela
+  draws its own: each icon is an object — a document, a disc, a folder, a
+  terminal, a cloud — in Tela's palette, with white detail and a soft corner
+  shade. 64×64 vector sources, 16–512 px exports, a unique silhouette and glyph
+  per project. <a href="preview.png">Contact sheet</a>.</p>
+</header>
+<main>
+    <article class="card">
+      <img src="png/araneola-128.png" width="128" height="128" alt="Araneola icon">
+      <h2>Araneola</h2>
+      <p>High-performance web crawler and sitemap generator, pure Guile Scheme</p>
+      <p class="files"><a href="svg/araneola.svg">svg</a> · <a href="png/araneola-512.png">512 png</a>
+        <span class="swatch" style="background:#6961b8" title="violet #6961b8"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/bewaking-128.png" width="128" height="128" alt="Bewaking icon">
+      <h2>Bewaking</h2>
+      <p>Encryption, authentication and authorization toolkit for Guile</p>
+      <p class="files"><a href="svg/bewaking.svg">svg</a> · <a href="png/bewaking-512.png">512 png</a>
+        <span class="swatch" style="background:#3434c8" title="indigo #3434c8"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/byggsteg-128.png" width="128" height="128" alt="byggsteg icon">
+      <h2>byggsteg</h2>
+      <p>Readable CI/CD orchestrator: pipelines as Lisp, streamed live</p>
+      <p class="files"><a href="svg/byggsteg.svg">svg</a> · <a href="png/byggsteg-512.png">512 png</a>
+        <span class="swatch" style="background:#ff7f28" title="orange #ff7f28"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/byggsteg-github-128.png" width="128" height="128" alt="Byggsteg GitHub icon">
+      <h2>Byggsteg GitHub</h2>
+      <p>GitHub Actions workflow and action bridging into byggsteg jobs</p>
+      <p class="files"><a href="svg/byggsteg-github.svg">svg</a> · <a href="png/byggsteg-github-512.png">512 png</a>
+        <span class="swatch" style="background:#263238" title="ink #263238"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/byggsteg-woodpecker-128.png" width="128" height="128" alt="Byggsteg Woodpecker icon">
+      <h2>Byggsteg Woodpecker</h2>
+      <p>Woodpecker CI image that runs byggsteg jobs and reports the outcome</p>
+      <p class="files"><a href="svg/byggsteg-woodpecker.svg">svg</a> · <a href="png/byggsteg-woodpecker-512.png">512 png</a>
+        <span class="swatch" style="background:#f57c00" title="ember #f57c00"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/carvoeiro-water-fun-128.png" width="128" height="128" alt="Carvoeiro Water Fun icon">
+      <h2>Carvoeiro Water Fun</h2>
+      <p>Static site for the water fun park in Carvoeiro, Algarve</p>
+      <p class="files"><a href="svg/carvoeiro-water-fun.svg">svg</a> · <a href="png/carvoeiro-water-fun-512.png">512 png</a>
+        <span class="swatch" style="background:#45a3e6" title="sky #45a3e6"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/cask-and-cons-128.png" width="128" height="128" alt="Cask & Cons icon">
+      <h2>Cask & Cons</h2>
+      <p>Declarative macOS dotfiles in Scheme, driven by the caco CLI</p>
+      <p class="files"><a href="svg/cask-and-cons.svg">svg</a> · <a href="png/cask-and-cons-512.png">512 png</a>
+        <span class="swatch" style="background:#795548" title="cocoa #795548"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/consceal-128.png" width="128" height="128" alt="Consceal icon">
+      <h2>Consceal</h2>
+      <p>Declarative secret management and deployment in Guile Scheme</p>
+      <p class="files"><a href="svg/consceal.svg">svg</a> · <a href="png/consceal-512.png">512 png</a>
+        <span class="swatch" style="background:#884ba1" title="plum #884ba1"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/digital-art-dreams-128.png" width="128" height="128" alt="Digital Art Dreams icon">
+      <h2>Digital Art Dreams</h2>
+      <p>Archive of collected digital artwork, released under CC0</p>
+      <p class="files"><a href="svg/digital-art-dreams.svg">svg</a> · <a href="png/digital-art-dreams-512.png">512 png</a>
+        <span class="swatch" style="background:#f06292" title="pink #f06292"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/free-alacarte-128.png" width="128" height="128" alt="Free à la Carte icon">
+      <h2>Free à la Carte</h2>
+      <p>Free monads and composable functors for embedded DSLs in Haskell</p>
+      <p class="files"><a href="svg/free-alacarte.svg">svg</a> · <a href="png/free-alacarte-512.png">512 png</a>
+        <span class="swatch" style="background:#26a69a" title="teal #26a69a"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/ggg-128.png" width="128" height="128" alt="GGG icon">
+      <h2>GGG</h2>
+      <p>Guile Glyph Generator: SVG logos and status badges from Lisp</p>
+      <p class="files"><a href="svg/ggg.svg">svg</a> · <a href="png/ggg-512.png">512 png</a>
+        <span class="swatch" style="background:#66bb6a" title="green #66bb6a"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/guile-openapi-generator-128.png" width="128" height="128" alt="Guile OpenAPI Generator icon">
+      <h2>Guile OpenAPI Generator</h2>
+      <p>Generates idiomatic Guile server and client code from an OpenAPI 3 spec</p>
+      <p class="files"><a href="svg/guile-openapi-generator.svg">svg</a> · <a href="png/guile-openapi-generator-512.png">512 png</a>
+        <span class="swatch" style="background:#efa63a" title="amber #efa63a"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/guix-jointhefreeworld-128.png" width="128" height="128" alt="guix-jointhefreeworld icon">
+      <h2>guix-jointhefreeworld</h2>
+      <p>GNU Guix channel packaging the whole jointhefreeworld collection</p>
+      <p class="files"><a href="svg/guix-jointhefreeworld.svg">svg</a> · <a href="png/guix-jointhefreeworld-512.png">512 png</a>
+        <span class="swatch" style="background:#6f4e9c" title="guix #6f4e9c"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/heks-bash-128.png" width="128" height="128" alt="Heks BASH icon">
+      <h2>Heks BASH</h2>
+      <p>Declarative Bash configuration and prompt, generated from Scheme</p>
+      <p class="files"><a href="svg/heks-bash.svg">svg</a> · <a href="png/heks-bash-512.png">512 png</a>
+        <span class="swatch" style="background:#3b843a" title="forest #3b843a"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/heks-emacs-128.png" width="128" height="128" alt="heks-emacs icon">
+      <h2>heks-emacs</h2>
+      <p>Modular, reproducible Emacs configuration built with Elpaca</p>
+      <p class="files"><a href="svg/heks-emacs.svg">svg</a> · <a href="png/heks-emacs-512.png">512 png</a>
+        <span class="swatch" style="background:#a24ba1" title="mauve #a24ba1"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/heks-linux-128.png" width="128" height="128" alt="Heks GNU/Linux icon">
+      <h2>Heks GNU/Linux</h2>
+      <p>Modular, programmable GNU/Linux desktop written as Scheme modules</p>
+      <p class="files"><a href="svg/heks-linux.svg">svg</a> · <a href="png/heks-linux-512.png">512 png</a>
+        <span class="swatch" style="background:#2f4f6f" title="navy #2f4f6f"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/heks-toon-128.png" width="128" height="128" alt="heks-toon icon">
+      <h2>heks-toon</h2>
+      <p>GTK4 window showing the desktop's keybindings, wallpapers and palettes</p>
+      <p class="files"><a href="svg/heks-toon.svg">svg</a> · <a href="png/heks-toon-512.png">512 png</a>
+        <span class="swatch" style="background:#e05a6d" title="rose #e05a6d"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/hygguile-128.png" width="128" height="128" alt="Hygguile icon">
+      <h2>Hygguile</h2>
+      <p>Cozy, accessible server-rendered UI framework: SXML in, HTML out</p>
+      <p class="files"><a href="svg/hygguile.svg">svg</a> · <a href="png/hygguile-512.png">512 png</a>
+        <span class="swatch" style="background:#6f9c7a" title="sage #6f9c7a"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/icns2linux-128.png" width="128" height="128" alt="icns2linux icon">
+      <h2>icns2linux</h2>
+      <p>Turns macOS .icns trees into a reproducible freedesktop icon theme</p>
+      <p class="files"><a href="svg/icns2linux.svg">svg</a> · <a href="png/icns2linux-512.png">512 png</a>
+        <span class="swatch" style="background:#5677fc" title="blue #5677fc"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/iter-vitae-128.png" width="128" height="128" alt="Iter Vitae icon">
+      <h2>Iter Vitae</h2>
+      <p>Multi-language CV generator: one Scheme file to HTML and plain text</p>
+      <p class="files"><a href="svg/iter-vitae.svg">svg</a> · <a href="png/iter-vitae-512.png">512 png</a>
+        <span class="swatch" style="background:#b5563f" title="bronze #b5563f"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/jointhefreeworld-128.png" width="128" height="128" alt="jointhefreeworld icon">
+      <h2>jointhefreeworld</h2>
+      <p>Personal homepage, blog and movement site built from Org with Emacs</p>
+      <p class="files"><a href="svg/jointhefreeworld.svg">svg</a> · <a href="png/jointhefreeworld-512.png">512 png</a>
+        <span class="swatch" style="background:#4741b5" title="royal #4741b5"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/kracht-128.png" width="128" height="128" alt="kracht icon">
+      <h2>kracht</h2>
+      <p>Batteries-included utility library for Guile Scheme programming</p>
+      <p class="files"><a href="svg/kracht.svg">svg</a> · <a href="png/kracht-512.png">512 png</a>
+        <span class="swatch" style="background:#fbc02d" title="yellow #fbc02d"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/lambdock-128.png" width="128" height="128" alt="lambdock icon">
+      <h2>lambdock</h2>
+      <p>Wayland dock in C and GTK4, with a live Guile Scheme brain</p>
+      <p class="files"><a href="svg/lambdock.svg">svg</a> · <a href="png/lambdock-512.png">512 png</a>
+        <span class="swatch" style="background:#85858a" title="grey #85858a"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/lenkesamler-128.png" width="128" height="128" alt="Lenkesamler icon">
+      <h2>Lenkesamler</h2>
+      <p>Bookmark manager and archive that exports HTML, Markdown, Org and XBEL</p>
+      <p class="files"><a href="svg/lenkesamler.svg">svg</a> · <a href="png/lenkesamler-512.png">512 png</a>
+        <span class="swatch" style="background:#4a90a4" title="sea #4a90a4"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/lucidplan-128.png" width="128" height="128" alt="LucidPlan icon">
+      <h2>LucidPlan</h2>
+      <p>Free project management: multi-project workspace with kanban boards</p>
+      <p class="files"><a href="svg/lucidplan.svg">svg</a> · <a href="png/lucidplan-512.png">512 png</a>
+        <span class="swatch" style="background:#5294e2" title="lucid #5294e2"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/maak-128.png" width="128" height="128" alt="maak icon">
+      <h2>maak</h2>
+      <p>Infinitely extensible command runner and project automator in Scheme</p>
+      <p class="files"><a href="svg/maak.svg">svg</a> · <a href="png/maak-512.png">512 png</a>
+        <span class="swatch" style="background:#ff9800" title="brandorange #ff9800"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/maak.el-128.png" width="128" height="128" alt="maak.el icon">
+      <h2>maak.el</h2>
+      <p>Emacs integration for maak: discover, inspect and run tasks from Emacs</p>
+      <p class="files"><a href="svg/maak.el.svg">svg</a> · <a href="png/maak.el-512.png">512 png</a>
+        <span class="swatch" style="background:#8e44ad" title="purple #8e44ad"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/modusregel-128.png" width="128" height="128" alt="modusregel icon">
+      <h2>modusregel</h2>
+      <p>Clean, fast, tree-sitter aware Emacs mode line</p>
+      <p class="files"><a href="svg/modusregel.svg">svg</a> · <a href="png/modusregel-512.png">512 png</a>
+        <span class="swatch" style="background:#4f9fe0" title="azure #4f9fe0"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/mutastructura-128.png" width="128" height="128" alt="Mutastructura icon">
+      <h2>Mutastructura</h2>
+      <p>Checksummed SQL migrations for SQLite, PostgreSQL, CockroachDB and MySQL</p>
+      <p class="files"><a href="svg/mutastructura.svg">svg</a> · <a href="png/mutastructura-512.png">512 png</a>
+        <span class="swatch" style="background:#2e7d5b" title="deepgreen #2e7d5b"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/nix-jointhefreeworld-128.png" width="128" height="128" alt="nix-jointhefreeworld icon">
+      <h2>nix-jointhefreeworld</h2>
+      <p>Nix flake carrying the whole jointhefreeworld package collection</p>
+      <p class="files"><a href="svg/nix-jointhefreeworld.svg">svg</a> · <a href="png/nix-jointhefreeworld-512.png">512 png</a>
+        <span class="swatch" style="background:#5277c3" title="nix #5277c3"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/olive-css-128.png" width="128" height="128" alt="Olive CSS icon">
+      <h2>Olive CSS</h2>
+      <p>Utility-first vanilla CSS framework generated with Scheme</p>
+      <p class="files"><a href="svg/olive-css.svg">svg</a> · <a href="png/olive-css-512.png">512 png</a>
+        <span class="swatch" style="background:#8a9a4a" title="olive #8a9a4a"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/orgwebalchemy-128.png" width="128" height="128" alt="OrgWebAlchemy icon">
+      <h2>OrgWebAlchemy</h2>
+      <p>Guile library that parses Org-mode with PEG and renders HTML, Markdown or SXML</p>
+      <p class="files"><a href="svg/orgwebalchemy.svg">svg</a> · <a href="png/orgwebalchemy-512.png">512 png</a>
+        <span class="swatch" style="background:#7e57c2" title="purple2 #7e57c2"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/pingwing-128.png" width="128" height="128" alt="PingWing icon">
+      <h2>PingWing</h2>
+      <p>Lisp-powered notification nexus: HTTP in, queued and retried SMTP out</p>
+      <p class="files"><a href="svg/pingwing.svg">svg</a> · <a href="png/pingwing-512.png">512 png</a>
+        <span class="swatch" style="background:#ef5350" title="red #ef5350"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/private-notes-128.png" width="128" height="128" alt="private-notes icon">
+      <h2>private-notes</h2>
+      <p>Personal knowledge vault: diary, contacts, career and engineering notes</p>
+      <p class="files"><a href="svg/private-notes.svg">svg</a> · <a href="png/private-notes-512.png">512 png</a>
+        <span class="swatch" style="background:#455a64" title="charcoal #455a64"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/scriba-128.png" width="128" height="128" alt="Scriba icon">
+      <h2>Scriba</h2>
+      <p>Structured, levelled, taggable logging for GNU Guile</p>
+      <p class="files"><a href="svg/scriba.svg">svg</a> · <a href="png/scriba-512.png">512 png</a>
+        <span class="swatch" style="background:#a2703c" title="oak #a2703c"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/sift-128.png" width="128" height="128" alt="sift icon">
+      <h2>sift</h2>
+      <p>Dialect-aware formatter, linter and language server for Scheme and the Lisps</p>
+      <p class="files"><a href="svg/sift.svg">svg</a> · <a href="png/sift-512.png">512 png</a>
+        <span class="swatch" style="background:#558b2f" title="moss #558b2f"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/skapa-128.png" width="128" height="128" alt="Skapa icon">
+      <h2>Skapa</h2>
+      <p>Project scaffolding and templating with S-expression templates</p>
+      <p class="files"><a href="svg/skapa.svg">svg</a> · <a href="png/skapa-512.png">512 png</a>
+        <span class="swatch" style="background:#1fa8a0" title="turquoise #1fa8a0"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/skeu-icons-128.png" width="128" height="128" alt="Skeu Icons icon">
+      <h2>Skeu Icons</h2>
+      <p>Skeuomorphic Linux icon theme built from painted objects, in 30 variants</p>
+      <p class="files"><a href="svg/skeu-icons.svg">svg</a> · <a href="png/skeu-icons-512.png">512 png</a>
+        <span class="swatch" style="background:#a8492f" title="rust #a8492f"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/symbanta-128.png" width="128" height="128" alt="Symbanta icon">
+      <h2>Symbanta</h2>
+      <p>Privacy-friendly, free analytics core that records events, not people</p>
+      <p class="files"><a href="svg/symbanta.svg">svg</a> · <a href="png/symbanta-512.png">512 png</a>
+        <span class="swatch" style="background:#29b6c8" title="cyan #29b6c8"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/symbanta-dashboard-128.png" width="128" height="128" alt="Symbanta Dashboard icon">
+      <h2>Symbanta Dashboard</h2>
+      <p>React dashboard that visualises a symbanta instance without surveillance</p>
+      <p class="files"><a href="svg/symbanta-dashboard.svg">svg</a> · <a href="png/symbanta-dashboard-512.png">512 png</a>
+        <span class="swatch" style="background:#e2648f" title="flamingo #e2648f"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/tekengrootte.el-128.png" width="128" height="128" alt="tekengrootte.el icon">
+      <h2>tekengrootte.el</h2>
+      <p>Proportional, scale-relative Emacs face sizes from nano to colossal</p>
+      <p class="files"><a href="svg/tekengrootte.el.svg">svg</a> · <a href="png/tekengrootte.el-512.png">512 png</a>
+        <span class="swatch" style="background:#ffca28" title="gold #ffca28"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/torikomi-128.png" width="128" height="128" alt="torikomi icon">
+      <h2>torikomi</h2>
+      <p>Artemis service that sinks remote URLs into a local media archive</p>
+      <p class="files"><a href="svg/torikomi.svg">svg</a> · <a href="png/torikomi-512.png">512 png</a>
+        <span class="swatch" style="background:#2f7f8f" title="lagoon #2f7f8f"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/veritas-128.png" width="128" height="128" alt="Veritas icon">
+      <h2>Veritas</h2>
+      <p>Guile test framework where a test is a form and the report is a hierarchy</p>
+      <p class="files"><a href="svg/veritas.svg">svg</a> · <a href="png/veritas-512.png">512 png</a>
+        <span class="swatch" style="background:#1f6f4a" title="bottle #1f6f4a"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/veritas.el-128.png" width="128" height="128" alt="veritas.el icon">
+      <h2>veritas.el</h2>
+      <p>Emacs integration for the Veritas test framework: run, report, navigate</p>
+      <p class="files"><a href="svg/veritas.el.svg">svg</a> · <a href="png/veritas.el-512.png">512 png</a>
+        <span class="swatch" style="background:#6a4fa3" title="violetta #6a4fa3"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/welkomscherm.el-128.png" width="128" height="128" alt="welkomscherm.el icon">
+      <h2>welkomscherm.el</h2>
+      <p>Small, calm, theme-respecting welcome screen for Emacs</p>
+      <p class="files"><a href="svg/welkomscherm.el.svg">svg</a> · <a href="png/welkomscherm.el-512.png">512 png</a>
+        <span class="swatch" style="background:#fb8c00" title="sunrise #fb8c00"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/wikimusic-128.png" width="128" height="128" alt="WikiMusic icon">
+      <h2>WikiMusic</h2>
+      <p>Collaborative music wiki built with GNU Artanis and Guile</p>
+      <p class="files"><a href="svg/wikimusic.svg">svg</a> · <a href="png/wikimusic-512.png">512 png</a>
+        <span class="swatch" style="background:#4caf50" title="leaf #4caf50"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/wip-site-128.png" width="128" height="128" alt="wip-site icon">
+      <h2>wip-site</h2>
+      <p>Dependency-free maintenance and coming-soon status page</p>
+      <p class="files"><a href="svg/wip-site.svg">svg</a> · <a href="png/wip-site-512.png">512 png</a>
+        <span class="swatch" style="background:#e08a00" title="ochre #e08a00"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/wolkenschloss-128.png" width="128" height="128" alt="Wolkenschloss icon">
+      <h2>Wolkenschloss</h2>
+      <p>Hetzner Cloud infrastructure managed from the REST API</p>
+      <p class="files"><a href="svg/wolkenschloss.svg">svg</a> · <a href="png/wolkenschloss-512.png">512 png</a>
+        <span class="swatch" style="background:#6b95d3" title="periwinkle #6b95d3"></span></p>
+    </article>
+    <article class="card">
+      <img src="png/wolk-jjba-128.png" width="128" height="128" alt="wolk-jjba icon">
+      <h2>wolk-jjba</h2>
+      <p>Personal cloud and server fleet provisioned as a Guile program</p>
+      <p class="files"><a href="svg/wolk-jjba.svg">svg</a> · <a href="png/wolk-jjba-512.png">512 png</a>
+        <span class="swatch" style="background:#465a6b" title="storm #465a6b"></span></p>
+    </article>
+</main>
+<footer>49 icons · Tela palette · sources in <code>svg/</code>,
+renders in <code>png/</code>, manifest in <code>icons.json</code>.</footer>
+</body>
+</html>

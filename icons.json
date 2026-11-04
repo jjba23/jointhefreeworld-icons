@@ -1,0 +1,848 @@
+{
+  "theme": "jointhefreeworld-icons, after Tela",
+  "grid": 64,
+  "sizes": [
+    16,
+    32,
+    48,
+    64,
+    128,
+    256,
+    512
+  ],
+  "icons": [
+    {
+      "slug": "araneola",
+      "name": "Araneola",
+      "purpose": "High-performance web crawler and sitemap generator, pure Guile Scheme",
+      "accent": "violet",
+      "colour": "#6961b8",
+      "svg": "svg/araneola.svg",
+      "png": {
+        "16": "png/araneola-16.png",
+        "32": "png/araneola-32.png",
+        "48": "png/araneola-48.png",
+        "64": "png/araneola-64.png",
+        "128": "png/araneola-128.png",
+        "256": "png/araneola-256.png",
+        "512": "png/araneola-512.png"
+      }
+    },
+    {
+      "slug": "bewaking",
+      "name": "Bewaking",
+      "purpose": "Encryption, authentication and authorization toolkit for Guile",
+      "accent": "indigo",
+      "colour": "#3434c8",
+      "svg": "svg/bewaking.svg",
+      "png": {
+        "16": "png/bewaking-16.png",
+        "32": "png/bewaking-32.png",
+        "48": "png/bewaking-48.png",
+        "64": "png/bewaking-64.png",
+        "128": "png/bewaking-128.png",
+        "256": "png/bewaking-256.png",
+        "512": "png/bewaking-512.png"
+      }
+    },
+    {
+      "slug": "byggsteg",
+      "name": "byggsteg",
+      "purpose": "Readable CI/CD orchestrator: pipelines as Lisp, streamed live",
+      "accent": "orange",
+      "colour": "#ff7f28",
+      "svg": "svg/byggsteg.svg",
+      "png": {
+        "16": "png/byggsteg-16.png",
+        "32": "png/byggsteg-32.png",
+        "48": "png/byggsteg-48.png",
+        "64": "png/byggsteg-64.png",
+        "128": "png/byggsteg-128.png",
+        "256": "png/byggsteg-256.png",
+        "512": "png/byggsteg-512.png"
+      }
+    },
+    {
+      "slug": "byggsteg-github",
+      "name": "Byggsteg GitHub",
+      "purpose": "GitHub Actions workflow and action bridging into byggsteg jobs",
+      "accent": "ink",
+      "colour": "#263238",
+      "svg": "svg/byggsteg-github.svg",
+      "png": {
+        "16": "png/byggsteg-github-16.png",
+        "32": "png/byggsteg-github-32.png",
+        "48": "png/byggsteg-github-48.png",
+        "64": "png/byggsteg-github-64.png",
+        "128": "png/byggsteg-github-128.png",
+        "256": "png/byggsteg-github-256.png",
+        "512": "png/byggsteg-github-512.png"
+      }
+    },
+    {
+      "slug": "byggsteg-woodpecker",
+      "name": "Byggsteg Woodpecker",
+      "purpose": "Woodpecker CI image that runs byggsteg jobs and reports the outcome",
+      "accent": "ember",
+      "colour": "#f57c00",
+      "svg": "svg/byggsteg-woodpecker.svg",
+      "png": {
+        "16": "png/byggsteg-woodpecker-16.png",
+        "32": "png/byggsteg-woodpecker-32.png",
+        "48": "png/byggsteg-woodpecker-48.png",
+        "64": "png/byggsteg-woodpecker-64.png",
+        "128": "png/byggsteg-woodpecker-128.png",
+        "256": "png/byggsteg-woodpecker-256.png",
+        "512": "png/byggsteg-woodpecker-512.png"
+      }
+    },
+    {
+      "slug": "carvoeiro-water-fun",
+      "name": "Carvoeiro Water Fun",
+      "purpose": "Static site for the water fun park in Carvoeiro, Algarve",
+      "accent": "sky",
+      "colour": "#45a3e6",
+      "svg": "svg/carvoeiro-water-fun.svg",
+      "png": {
+        "16": "png/carvoeiro-water-fun-16.png",
+        "32": "png/carvoeiro-water-fun-32.png",
+        "48": "png/carvoeiro-water-fun-48.png",
+        "64": "png/carvoeiro-water-fun-64.png",
+        "128": "png/carvoeiro-water-fun-128.png",
+        "256": "png/carvoeiro-water-fun-256.png",
+        "512": "png/carvoeiro-water-fun-512.png"
+      }
+    },
+    {
+      "slug": "cask-and-cons",
+      "name": "Cask & Cons",
+      "purpose": "Declarative macOS dotfiles in Scheme, driven by the caco CLI",
+      "accent": "cocoa",
+      "colour": "#795548",
+      "svg": "svg/cask-and-cons.svg",
+      "png": {
+        "16": "png/cask-and-cons-16.png",
+        "32": "png/cask-and-cons-32.png",
+        "48": "png/cask-and-cons-48.png",
+        "64": "png/cask-and-cons-64.png",
+        "128": "png/cask-and-cons-128.png",
+        "256": "png/cask-and-cons-256.png",
+        "512": "png/cask-and-cons-512.png"
+      }
+    },
+    {
+      "slug": "consceal",
+      "name": "Consceal",
+      "purpose": "Declarative secret management and deployment in Guile Scheme",
+      "accent": "plum",
+      "colour": "#884ba1",
+      "svg": "svg/consceal.svg",
+      "png": {
+        "16": "png/consceal-16.png",
+        "32": "png/consceal-32.png",
+        "48": "png/consceal-48.png",
+        "64": "png/consceal-64.png",
+        "128": "png/consceal-128.png",
+        "256": "png/consceal-256.png",
+        "512": "png/consceal-512.png"
+      }
+    },
+    {
+      "slug": "digital-art-dreams",
+      "name": "Digital Art Dreams",
+      "purpose": "Archive of collected digital artwork, released under CC0",
+      "accent": "pink",
+      "colour": "#f06292",
+      "svg": "svg/digital-art-dreams.svg",
+      "png": {
+        "16": "png/digital-art-dreams-16.png",
+        "32": "png/digital-art-dreams-32.png",
+        "48": "png/digital-art-dreams-48.png",
+        "64": "png/digital-art-dreams-64.png",
+        "128": "png/digital-art-dreams-128.png",
+        "256": "png/digital-art-dreams-256.png",
+        "512": "png/digital-art-dreams-512.png"
+      }
+    },
+    {
+      "slug": "free-alacarte",
+      "name": "Free à la Carte",
+      "purpose": "Free monads and composable functors for embedded DSLs in Haskell",
+      "accent": "teal",
+      "colour": "#26a69a",
+      "svg": "svg/free-alacarte.svg",
+      "png": {
+        "16": "png/free-alacarte-16.png",
+        "32": "png/free-alacarte-32.png",
+        "48": "png/free-alacarte-48.png",
+        "64": "png/free-alacarte-64.png",
+        "128": "png/free-alacarte-128.png",
+        "256": "png/free-alacarte-256.png",
+        "512": "png/free-alacarte-512.png"
+      }
+    },
+    {
+      "slug": "ggg",
+      "name": "GGG",
+      "purpose": "Guile Glyph Generator: SVG logos and status badges from Lisp",
+      "accent": "green",
+      "colour": "#66bb6a",
+      "svg": "svg/ggg.svg",
+      "png": {
+        "16": "png/ggg-16.png",
+        "32": "png/ggg-32.png",
+        "48": "png/ggg-48.png",
+        "64": "png/ggg-64.png",
+        "128": "png/ggg-128.png",
+        "256": "png/ggg-256.png",
+        "512": "png/ggg-512.png"
+      }
+    },
+    {
+      "slug": "guile-openapi-generator",
+      "name": "Guile OpenAPI Generator",
+      "purpose": "Generates idiomatic Guile server and client code from an OpenAPI 3 spec",
+      "accent": "amber",
+      "colour": "#efa63a",
+      "svg": "svg/guile-openapi-generator.svg",
+      "png": {
+        "16": "png/guile-openapi-generator-16.png",
+        "32": "png/guile-openapi-generator-32.png",
+        "48": "png/guile-openapi-generator-48.png",
+        "64": "png/guile-openapi-generator-64.png",
+        "128": "png/guile-openapi-generator-128.png",
+        "256": "png/guile-openapi-generator-256.png",
+        "512": "png/guile-openapi-generator-512.png"
+      }
+    },
+    {
+      "slug": "guix-jointhefreeworld",
+      "name": "guix-jointhefreeworld",
+      "purpose": "GNU Guix channel packaging the whole jointhefreeworld collection",
+      "accent": "guix",
+      "colour": "#6f4e9c",
+      "svg": "svg/guix-jointhefreeworld.svg",
+      "png": {
+        "16": "png/guix-jointhefreeworld-16.png",
+        "32": "png/guix-jointhefreeworld-32.png",
+        "48": "png/guix-jointhefreeworld-48.png",
+        "64": "png/guix-jointhefreeworld-64.png",
+        "128": "png/guix-jointhefreeworld-128.png",
+        "256": "png/guix-jointhefreeworld-256.png",
+        "512": "png/guix-jointhefreeworld-512.png"
+      }
+    },
+    {
+      "slug": "heks-bash",
+      "name": "Heks BASH",
+      "purpose": "Declarative Bash configuration and prompt, generated from Scheme",
+      "accent": "forest",
+      "colour": "#3b843a",
+      "svg": "svg/heks-bash.svg",
+      "png": {
+        "16": "png/heks-bash-16.png",
+        "32": "png/heks-bash-32.png",
+        "48": "png/heks-bash-48.png",
+        "64": "png/heks-bash-64.png",
+        "128": "png/heks-bash-128.png",
+        "256": "png/heks-bash-256.png",
+        "512": "png/heks-bash-512.png"
+      }
+    },
+    {
+      "slug": "heks-emacs",
+      "name": "heks-emacs",
+      "purpose": "Modular, reproducible Emacs configuration built with Elpaca",
+      "accent": "mauve",
+      "colour": "#a24ba1",
+      "svg": "svg/heks-emacs.svg",
+      "png": {
+        "16": "png/heks-emacs-16.png",
+        "32": "png/heks-emacs-32.png",
+        "48": "png/heks-emacs-48.png",
+        "64": "png/heks-emacs-64.png",
+        "128": "png/heks-emacs-128.png",
+        "256": "png/heks-emacs-256.png",
+        "512": "png/heks-emacs-512.png"
+      }
+    },
+    {
+      "slug": "heks-linux",
+      "name": "Heks GNU/Linux",
+      "purpose": "Modular, programmable GNU/Linux desktop written as Scheme modules",
+      "accent": "navy",
+      "colour": "#2f4f6f",
+      "svg": "svg/heks-linux.svg",
+      "png": {
+        "16": "png/heks-linux-16.png",
+        "32": "png/heks-linux-32.png",
+        "48": "png/heks-linux-48.png",
+        "64": "png/heks-linux-64.png",
+        "128": "png/heks-linux-128.png",
+        "256": "png/heks-linux-256.png",
+        "512": "png/heks-linux-512.png"
+      }
+    },
+    {
+      "slug": "heks-toon",
+      "name": "heks-toon",
+      "purpose": "GTK4 window showing the desktop's keybindings, wallpapers and palettes",
+      "accent": "rose",
+      "colour": "#e05a6d",
+      "svg": "svg/heks-toon.svg",
+      "png": {
+        "16": "png/heks-toon-16.png",
+        "32": "png/heks-toon-32.png",
+        "48": "png/heks-toon-48.png",
+        "64": "png/heks-toon-64.png",
+        "128": "png/heks-toon-128.png",
+        "256": "png/heks-toon-256.png",
+        "512": "png/heks-toon-512.png"
+      }
+    },
+    {
+      "slug": "hygguile",
+      "name": "Hygguile",
+      "purpose": "Cozy, accessible server-rendered UI framework: SXML in, HTML out",
+      "accent": "sage",
+      "colour": "#6f9c7a",
+      "svg": "svg/hygguile.svg",
+      "png": {
+        "16": "png/hygguile-16.png",
+        "32": "png/hygguile-32.png",
+        "48": "png/hygguile-48.png",
+        "64": "png/hygguile-64.png",
+        "128": "png/hygguile-128.png",
+        "256": "png/hygguile-256.png",
+        "512": "png/hygguile-512.png"
+      }
+    },
+    {
+      "slug": "icns2linux",
+      "name": "icns2linux",
+      "purpose": "Turns macOS .icns trees into a reproducible freedesktop icon theme",
+      "accent": "blue",
+      "colour": "#5677fc",
+      "svg": "svg/icns2linux.svg",
+      "png": {
+        "16": "png/icns2linux-16.png",
+        "32": "png/icns2linux-32.png",
+        "48": "png/icns2linux-48.png",
+        "64": "png/icns2linux-64.png",
+        "128": "png/icns2linux-128.png",
+        "256": "png/icns2linux-256.png",
+        "512": "png/icns2linux-512.png"
+      }
+    },
+    {
+      "slug": "iter-vitae",
+      "name": "Iter Vitae",
+      "purpose": "Multi-language CV generator: one Scheme file to HTML and plain text",
+      "accent": "bronze",
+      "colour": "#b5563f",
+      "svg": "svg/iter-vitae.svg",
+      "png": {
+        "16": "png/iter-vitae-16.png",
+        "32": "png/iter-vitae-32.png",
+        "48": "png/iter-vitae-48.png",
+        "64": "png/iter-vitae-64.png",
+        "128": "png/iter-vitae-128.png",
+        "256": "png/iter-vitae-256.png",
+        "512": "png/iter-vitae-512.png"
+      }
+    },
+    {
+      "slug": "jointhefreeworld",
+      "name": "jointhefreeworld",
+      "purpose": "Personal homepage, blog and movement site built from Org with Emacs",
+      "accent": "royal",
+      "colour": "#4741b5",
+      "svg": "svg/jointhefreeworld.svg",
+      "png": {
+        "16": "png/jointhefreeworld-16.png",
+        "32": "png/jointhefreeworld-32.png",
+        "48": "png/jointhefreeworld-48.png",
+        "64": "png/jointhefreeworld-64.png",
+        "128": "png/jointhefreeworld-128.png",
+        "256": "png/jointhefreeworld-256.png",
+        "512": "png/jointhefreeworld-512.png"
+      }
+    },
+    {
+      "slug": "kracht",
+      "name": "kracht",
+      "purpose": "Batteries-included utility library for Guile Scheme programming",
+      "accent": "yellow",
+      "colour": "#fbc02d",
+      "svg": "svg/kracht.svg",
+      "png": {
+        "16": "png/kracht-16.png",
+        "32": "png/kracht-32.png",
+        "48": "png/kracht-48.png",
+        "64": "png/kracht-64.png",
+        "128": "png/kracht-128.png",
+        "256": "png/kracht-256.png",
+        "512": "png/kracht-512.png"
+      }
+    },
+    {
+      "slug": "lambdock",
+      "name": "lambdock",
+      "purpose": "Wayland dock in C and GTK4, with a live Guile Scheme brain",
+      "accent": "grey",
+      "colour": "#85858a",
+      "svg": "svg/lambdock.svg",
+      "png": {
+        "16": "png/lambdock-16.png",
+        "32": "png/lambdock-32.png",
+        "48": "png/lambdock-48.png",
+        "64": "png/lambdock-64.png",
+        "128": "png/lambdock-128.png",
+        "256": "png/lambdock-256.png",
+        "512": "png/lambdock-512.png"
+      }
+    },
+    {
+      "slug": "lenkesamler",
+      "name": "Lenkesamler",
+      "purpose": "Bookmark manager and archive that exports HTML, Markdown, Org and XBEL",
+      "accent": "sea",
+      "colour": "#4a90a4",
+      "svg": "svg/lenkesamler.svg",
+      "png": {
+        "16": "png/lenkesamler-16.png",
+        "32": "png/lenkesamler-32.png",
+        "48": "png/lenkesamler-48.png",
+        "64": "png/lenkesamler-64.png",
+        "128": "png/lenkesamler-128.png",
+        "256": "png/lenkesamler-256.png",
+        "512": "png/lenkesamler-512.png"
+      }
+    },
+    {
+      "slug": "lucidplan",
+      "name": "LucidPlan",
+      "purpose": "Free project management: multi-project workspace with kanban boards",
+      "accent": "lucid",
+      "colour": "#5294e2",
+      "svg": "svg/lucidplan.svg",
+      "png": {
+        "16": "png/lucidplan-16.png",
+        "32": "png/lucidplan-32.png",
+        "48": "png/lucidplan-48.png",
+        "64": "png/lucidplan-64.png",
+        "128": "png/lucidplan-128.png",
+        "256": "png/lucidplan-256.png",
+        "512": "png/lucidplan-512.png"
+      }
+    },
+    {
+      "slug": "maak",
+      "name": "maak",
+      "purpose": "Infinitely extensible command runner and project automator in Scheme",
+      "accent": "brandorange",
+      "colour": "#ff9800",
+      "svg": "svg/maak.svg",
+      "png": {
+        "16": "png/maak-16.png",
+        "32": "png/maak-32.png",
+        "48": "png/maak-48.png",
+        "64": "png/maak-64.png",
+        "128": "png/maak-128.png",
+        "256": "png/maak-256.png",
+        "512": "png/maak-512.png"
+      }
+    },
+    {
+      "slug": "maak.el",
+      "name": "maak.el",
+      "purpose": "Emacs integration for maak: discover, inspect and run tasks from Emacs",
+      "accent": "purple",
+      "colour": "#8e44ad",
+      "svg": "svg/maak.el.svg",
+      "png": {
+        "16": "png/maak.el-16.png",
+        "32": "png/maak.el-32.png",
+        "48": "png/maak.el-48.png",
+        "64": "png/maak.el-64.png",
+        "128": "png/maak.el-128.png",
+        "256": "png/maak.el-256.png",
+        "512": "png/maak.el-512.png"
+      }
+    },
+    {
+      "slug": "modusregel",
+      "name": "modusregel",
+      "purpose": "Clean, fast, tree-sitter aware Emacs mode line",
+      "accent": "azure",
+      "colour": "#4f9fe0",
+      "svg": "svg/modusregel.svg",
+      "png": {
+        "16": "png/modusregel-16.png",
+        "32": "png/modusregel-32.png",
+        "48": "png/modusregel-48.png",
+        "64": "png/modusregel-64.png",
+        "128": "png/modusregel-128.png",
+        "256": "png/modusregel-256.png",
+        "512": "png/modusregel-512.png"
+      }
+    },
+    {
+      "slug": "mutastructura",
+      "name": "Mutastructura",
+      "purpose": "Checksummed SQL migrations for SQLite, PostgreSQL, CockroachDB and MySQL",
+      "accent": "deepgreen",
+      "colour": "#2e7d5b",
+      "svg": "svg/mutastructura.svg",
+      "png": {
+        "16": "png/mutastructura-16.png",
+        "32": "png/mutastructura-32.png",
+        "48": "png/mutastructura-48.png",
+        "64": "png/mutastructura-64.png",
+        "128": "png/mutastructura-128.png",
+        "256": "png/mutastructura-256.png",
+        "512": "png/mutastructura-512.png"
+      }
+    },
+    {
+      "slug": "nix-jointhefreeworld",
+      "name": "nix-jointhefreeworld",
+      "purpose": "Nix flake carrying the whole jointhefreeworld package collection",
+      "accent": "nix",
+      "colour": "#5277c3",
+      "svg": "svg/nix-jointhefreeworld.svg",
+      "png": {
+        "16": "png/nix-jointhefreeworld-16.png",
+        "32": "png/nix-jointhefreeworld-32.png",
+        "48": "png/nix-jointhefreeworld-48.png",
+        "64": "png/nix-jointhefreeworld-64.png",
+        "128": "png/nix-jointhefreeworld-128.png",
+        "256": "png/nix-jointhefreeworld-256.png",
+        "512": "png/nix-jointhefreeworld-512.png"
+      }
+    },
+    {
+      "slug": "olive-css",
+      "name": "Olive CSS",
+      "purpose": "Utility-first vanilla CSS framework generated with Scheme",
+      "accent": "olive",
+      "colour": "#8a9a4a",
+      "svg": "svg/olive-css.svg",
+      "png": {
+        "16": "png/olive-css-16.png",
+        "32": "png/olive-css-32.png",
+        "48": "png/olive-css-48.png",
+        "64": "png/olive-css-64.png",
+        "128": "png/olive-css-128.png",
+        "256": "png/olive-css-256.png",
+        "512": "png/olive-css-512.png"
+      }
+    },
+    {
+      "slug": "orgwebalchemy",
+      "name": "OrgWebAlchemy",
+      "purpose": "Guile library that parses Org-mode with PEG and renders HTML, Markdown or SXML",
+      "accent": "purple2",
+      "colour": "#7e57c2",
+      "svg": "svg/orgwebalchemy.svg",
+      "png": {
+        "16": "png/orgwebalchemy-16.png",
+        "32": "png/orgwebalchemy-32.png",
+        "48": "png/orgwebalchemy-48.png",
+        "64": "png/orgwebalchemy-64.png",
+        "128": "png/orgwebalchemy-128.png",
+        "256": "png/orgwebalchemy-256.png",
+        "512": "png/orgwebalchemy-512.png"
+      }
+    },
+    {
+      "slug": "pingwing",
+      "name": "PingWing",
+      "purpose": "Lisp-powered notification nexus: HTTP in, queued and retried SMTP out",
+      "accent": "red",
+      "colour": "#ef5350",
+      "svg": "svg/pingwing.svg",
+      "png": {
+        "16": "png/pingwing-16.png",
+        "32": "png/pingwing-32.png",
+        "48": "png/pingwing-48.png",
+        "64": "png/pingwing-64.png",
+        "128": "png/pingwing-128.png",
+        "256": "png/pingwing-256.png",
+        "512": "png/pingwing-512.png"
+      }
+    },
+    {
+      "slug": "private-notes",
+      "name": "private-notes",
+      "purpose": "Personal knowledge vault: diary, contacts, career and engineering notes",
+      "accent": "charcoal",
+      "colour": "#455a64",
+      "svg": "svg/private-notes.svg",
+      "png": {
+        "16": "png/private-notes-16.png",
+        "32": "png/private-notes-32.png",
+        "48": "png/private-notes-48.png",
+        "64": "png/private-notes-64.png",
+        "128": "png/private-notes-128.png",
+        "256": "png/private-notes-256.png",
+        "512": "png/private-notes-512.png"
+      }
+    },
+    {
+      "slug": "scriba",
+      "name": "Scriba",
+      "purpose": "Structured, levelled, taggable logging for GNU Guile",
+      "accent": "oak",
+      "colour": "#a2703c",
+      "svg": "svg/scriba.svg",
+      "png": {
+        "16": "png/scriba-16.png",
+        "32": "png/scriba-32.png",
+        "48": "png/scriba-48.png",
+        "64": "png/scriba-64.png",
+        "128": "png/scriba-128.png",
+        "256": "png/scriba-256.png",
+        "512": "png/scriba-512.png"
+      }
+    },
+    {
+      "slug": "sift",
+      "name": "sift",
+      "purpose": "Dialect-aware formatter, linter and language server for Scheme and the Lisps",
+      "accent": "moss",
+      "colour": "#558b2f",
+      "svg": "svg/sift.svg",
+      "png": {
+        "16": "png/sift-16.png",
+        "32": "png/sift-32.png",
+        "48": "png/sift-48.png",
+        "64": "png/sift-64.png",
+        "128": "png/sift-128.png",
+        "256": "png/sift-256.png",
+        "512": "png/sift-512.png"
+      }
+    },
+    {
+      "slug": "skapa",
+      "name": "Skapa",
+      "purpose": "Project scaffolding and templating with S-expression templates",
+      "accent": "turquoise",
+      "colour": "#1fa8a0",
+      "svg": "svg/skapa.svg",
+      "png": {
+        "16": "png/skapa-16.png",
+        "32": "png/skapa-32.png",
+        "48": "png/skapa-48.png",
+        "64": "png/skapa-64.png",
+        "128": "png/skapa-128.png",
+        "256": "png/skapa-256.png",
+        "512": "png/skapa-512.png"
+      }
+    },
+    {
+      "slug": "skeu-icons",
+      "name": "Skeu Icons",
+      "purpose": "Skeuomorphic Linux icon theme built from painted objects, in 30 variants",
+      "accent": "rust",
+      "colour": "#a8492f",
+      "svg": "svg/skeu-icons.svg",
+      "png": {
+        "16": "png/skeu-icons-16.png",
+        "32": "png/skeu-icons-32.png",
+        "48": "png/skeu-icons-48.png",
+        "64": "png/skeu-icons-64.png",
+        "128": "png/skeu-icons-128.png",
+        "256": "png/skeu-icons-256.png",
+        "512": "png/skeu-icons-512.png"
+      }
+    },
+    {
+      "slug": "symbanta",
+      "name": "Symbanta",
+      "purpose": "Privacy-friendly, free analytics core that records events, not people",
+      "accent": "cyan",
+      "colour": "#29b6c8",
+      "svg": "svg/symbanta.svg",
+      "png": {
+        "16": "png/symbanta-16.png",
+        "32": "png/symbanta-32.png",
+        "48": "png/symbanta-48.png",
+        "64": "png/symbanta-64.png",
+        "128": "png/symbanta-128.png",
+        "256": "png/symbanta-256.png",
+        "512": "png/symbanta-512.png"
+      }
+    },
+    {
+      "slug": "symbanta-dashboard",
+      "name": "Symbanta Dashboard",
+      "purpose": "React dashboard that visualises a symbanta instance without surveillance",
+      "accent": "flamingo",
+      "colour": "#e2648f",
+      "svg": "svg/symbanta-dashboard.svg",
+      "png": {
+        "16": "png/symbanta-dashboard-16.png",
+        "32": "png/symbanta-dashboard-32.png",
+        "48": "png/symbanta-dashboard-48.png",
+        "64": "png/symbanta-dashboard-64.png",
+        "128": "png/symbanta-dashboard-128.png",
+        "256": "png/symbanta-dashboard-256.png",
+        "512": "png/symbanta-dashboard-512.png"
+      }
+    },
+    {
+      "slug": "tekengrootte.el",
+      "name": "tekengrootte.el",
+      "purpose": "Proportional, scale-relative Emacs face sizes from nano to colossal",
+      "accent": "gold",
+      "colour": "#ffca28",
+      "svg": "svg/tekengrootte.el.svg",
+      "png": {
+        "16": "png/tekengrootte.el-16.png",
+        "32": "png/tekengrootte.el-32.png",
+        "48": "png/tekengrootte.el-48.png",
+        "64": "png/tekengrootte.el-64.png",
+        "128": "png/tekengrootte.el-128.png",
+        "256": "png/tekengrootte.el-256.png",
+        "512": "png/tekengrootte.el-512.png"
+      }
+    },
+    {
+      "slug": "torikomi",
+      "name": "torikomi",
+      "purpose": "Artemis service that sinks remote URLs into a local media archive",
+      "accent": "lagoon",
+      "colour": "#2f7f8f",
+      "svg": "svg/torikomi.svg",
+      "png": {
+        "16": "png/torikomi-16.png",
+        "32": "png/torikomi-32.png",
+        "48": "png/torikomi-48.png",
+        "64": "png/torikomi-64.png",
+        "128": "png/torikomi-128.png",
+        "256": "png/torikomi-256.png",
+        "512": "png/torikomi-512.png"
+      }
+    },
+    {
+      "slug": "veritas",
+      "name": "Veritas",
+      "purpose": "Guile test framework where a test is a form and the report is a hierarchy",
+      "accent": "bottle",
+      "colour": "#1f6f4a",
+      "svg": "svg/veritas.svg",
+      "png": {
+        "16": "png/veritas-16.png",
+        "32": "png/veritas-32.png",
+        "48": "png/veritas-48.png",
+        "64": "png/veritas-64.png",
+        "128": "png/veritas-128.png",
+        "256": "png/veritas-256.png",
+        "512": "png/veritas-512.png"
+      }
+    },
+    {
+      "slug": "veritas.el",
+      "name": "veritas.el",
+      "purpose": "Emacs integration for the Veritas test framework: run, report, navigate",
+      "accent": "violetta",
+      "colour": "#6a4fa3",
+      "svg": "svg/veritas.el.svg",
+      "png": {
+        "16": "png/veritas.el-16.png",
+        "32": "png/veritas.el-32.png",
+        "48": "png/veritas.el-48.png",
+        "64": "png/veritas.el-64.png",
+        "128": "png/veritas.el-128.png",
+        "256": "png/veritas.el-256.png",
+        "512": "png/veritas.el-512.png"
+      }
+    },
+    {
+      "slug": "welkomscherm.el",
+      "name": "welkomscherm.el",
+      "purpose": "Small, calm, theme-respecting welcome screen for Emacs",
+      "accent": "sunrise",
+      "colour": "#fb8c00",
+      "svg": "svg/welkomscherm.el.svg",
+      "png": {
+        "16": "png/welkomscherm.el-16.png",
+        "32": "png/welkomscherm.el-32.png",
+        "48": "png/welkomscherm.el-48.png",
+        "64": "png/welkomscherm.el-64.png",
+        "128": "png/welkomscherm.el-128.png",
+        "256": "png/welkomscherm.el-256.png",
+        "512": "png/welkomscherm.el-512.png"
+      }
+    },
+    {
+      "slug": "wikimusic",
+      "name": "WikiMusic",
+      "purpose": "Collaborative music wiki built with GNU Artanis and Guile",
+      "accent": "leaf",
+      "colour": "#4caf50",
+      "svg": "svg/wikimusic.svg",
+      "png": {
+        "16": "png/wikimusic-16.png",
+        "32": "png/wikimusic-32.png",
+        "48": "png/wikimusic-48.png",
+        "64": "png/wikimusic-64.png",
+        "128": "png/wikimusic-128.png",
+        "256": "png/wikimusic-256.png",
+        "512": "png/wikimusic-512.png"
+      }
+    },
+    {
+      "slug": "wip-site",
+      "name": "wip-site",
+      "purpose": "Dependency-free maintenance and coming-soon status page",
+      "accent": "ochre",
+      "colour": "#e08a00",
+      "svg": "svg/wip-site.svg",
+      "png": {
+        "16": "png/wip-site-16.png",
+        "32": "png/wip-site-32.png",
+        "48": "png/wip-site-48.png",
+        "64": "png/wip-site-64.png",
+        "128": "png/wip-site-128.png",
+        "256": "png/wip-site-256.png",
+        "512": "png/wip-site-512.png"
+      }
+    },
+    {
+      "slug": "wolkenschloss",
+      "name": "Wolkenschloss",
+      "purpose": "Hetzner Cloud infrastructure managed from the REST API",
+      "accent": "periwinkle",
+      "colour": "#6b95d3",
+      "svg": "svg/wolkenschloss.svg",
+      "png": {
+        "16": "png/wolkenschloss-16.png",
+        "32": "png/wolkenschloss-32.png",
+        "48": "png/wolkenschloss-48.png",
+        "64": "png/wolkenschloss-64.png",
+        "128": "png/wolkenschloss-128.png",
+        "256": "png/wolkenschloss-256.png",
+        "512": "png/wolkenschloss-512.png"
+      }
+    },
+    {
+      "slug": "wolk-jjba",
+      "name": "wolk-jjba",
+      "purpose": "Personal cloud and server fleet provisioned as a Guile program",
+      "accent": "storm",
+      "colour": "#465a6b",
+      "svg": "svg/wolk-jjba.svg",
+      "png": {
+        "16": "png/wolk-jjba-16.png",
+        "32": "png/wolk-jjba-32.png",
+        "48": "png/wolk-jjba-48.png",
+        "64": "png/wolk-jjba-64.png",
+        "128": "png/wolk-jjba-128.png",
+        "256": "png/wolk-jjba-256.png",
+        "512": "png/wolk-jjba-512.png"
+      }
+    }
+  ]
+}

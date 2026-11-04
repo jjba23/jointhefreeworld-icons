@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"
+     role="img" aria-label="kracht — Batteries-included utility library for Guile Scheme programming">
+ <title>kracht — Batteries-included utility library for Guile Scheme programming</title>
+ <defs><linearGradient id="kracht-main" x1="0" y1="0" x2="0" y2="64" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fcca4f"/><stop offset=".55" stop-color="#fbc02d"/><stop offset="1" stop-color="#ba8e21"/></linearGradient><linearGradient id="kracht-light" x1="0" y1="0" x2="0" y2="64" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fcd574"/><stop offset=".55" stop-color="#fcca4f"/><stop offset="1" stop-color="#fbc02d"/></linearGradient><linearGradient id="kracht-pale" x1="0" y1="0" x2="0" y2="64" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fde7af"/><stop offset=".55" stop-color="#fdde92"/><stop offset="1" stop-color="#fcd470"/></linearGradient><linearGradient id="kracht-dark" x1="0" y1="0" x2="0" y2="64" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fbc02d"/><stop offset=".55" stop-color="#d8a527"/><stop offset="1" stop-color="#ba8e21"/></linearGradient><linearGradient id="kracht-deep" x1="0" y1="0" x2="0" y2="64" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d3a126"/><stop offset=".55" stop-color="#b08620"/><stop offset="1" stop-color="#97731b"/></linearGradient><linearGradient id="kracht-gloss" x1="0" y1="0" x2="0" y2="36" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity=".3"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient><linearGradient id="kracht-shade" x1="20" y1="20" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop offset=".3" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity=".22"/></linearGradient><clipPath id="kracht-clip"><path d="M35 4L18 35L26 35L28 58L46 27L36 27z"/></clipPath></defs>
+ <g clip-path="url(#kracht-clip)">
+  <path d="M35 4L18 35L26 35L28 58L46 27L36 27z" fill="url(#kracht-main)"/>
+  <rect x="0" y="0" width="64" height="64" fill="url(#kracht-gloss)"/>
+  <rect x="0" y="0" width="64" height="64" fill="url(#kracht-shade)"/>
+  <path d="M35 4L18 35L26 35L28 58L46 27L36 27z" fill="none" stroke="#ffffff" stroke-opacity=".26" stroke-width="1.6"/>
+ </g>
+ <path d="M35 4L18 35L26 35L28 58L46 27L36 27z" fill="none" stroke="#000000" stroke-opacity=".16" stroke-width="1"/>
+ <g><path d="M14 12c-4 0-5.4 2-5.4 5.4v5.2c0 3-1.4 4.4-3.6 4.8 2.2.4 3.6 1.8 3.6 4.8v5.2c0 3.4 1.4 5.4 5.4 5.4" fill="none" stroke="#263238" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/><path d="M50 12c4 0 5.4 2 5.4 5.4v5.2c0 3 1.4 4.4 3.6 4.8 -2.2.4-3.6 1.8-3.6 4.8v5.2c0 3.4-1.4 5.4-5.4 5.4" fill="none" stroke="#263238" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/></g>
+</svg>
