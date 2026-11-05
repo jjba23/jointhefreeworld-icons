@@ -65,6 +65,8 @@ ACCENTS = {
     "ochre": "#e08a00",
     "periwinkle": "#6b95d3",
     "storm": "#465a6b",
+    "clover": "#2f9e44",
+    "blush": "#d98aa3",
 }
 
 

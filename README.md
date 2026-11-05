@@ -41,7 +41,7 @@ projects sharing a silhouette or a glyph is a build error, not a style note.
 | --- | --- | --- | --- | --- |
 | ![Araneola](png/araneola-64.png) | `araneola` | Araneola | High-performance web crawler and sitemap generator, pure Guile Scheme | `#6961b8` |
 | ![Bewaking](png/bewaking-64.png) | `bewaking` | Bewaking | Encryption, authentication and authorization toolkit for Guile | `#3434c8` |
-| ![byggsteg](png/byggsteg-64.png) | `byggsteg` | byggsteg | Readable CI/CD orchestrator: pipelines as Lisp, streamed live | `#ff7f28` |
+| ![byggsteg](png/byggsteg-64.png) | `byggsteg` | byggsteg | Readable CI/CD orchestrator: pipelines as Lisp, streamed live | `#2f9e44` |
 | ![Byggsteg GitHub](png/byggsteg-github-64.png) | `byggsteg-github` | Byggsteg GitHub | GitHub Actions workflow and action bridging into byggsteg jobs | `#263238` |
 | ![Byggsteg Woodpecker](png/byggsteg-woodpecker-64.png) | `byggsteg-woodpecker` | Byggsteg Woodpecker | Woodpecker CI image that runs byggsteg jobs and reports the outcome | `#f57c00` |
 | ![Carvoeiro Water Fun](png/carvoeiro-water-fun-64.png) | `carvoeiro-water-fun` | Carvoeiro Water Fun | Static site for the water fun park in Carvoeiro, Algarve | `#45a3e6` |
@@ -84,7 +84,7 @@ projects sharing a silhouette or a glyph is a build error, not a style note.
 | ![Veritas](png/veritas-64.png) | `veritas` | Veritas | Guile test framework where a test is a form and the report is a hierarchy | `#1f6f4a` |
 | ![veritas.el](png/veritas.el-64.png) | `veritas.el` | veritas.el | Emacs integration for the Veritas test framework: run, report, navigate | `#6a4fa3` |
 | ![welkomscherm.el](png/welkomscherm.el-64.png) | `welkomscherm.el` | welkomscherm.el | Small, calm, theme-respecting welcome screen for Emacs | `#fb8c00` |
-| ![WikiMusic](png/wikimusic-64.png) | `wikimusic` | WikiMusic | Collaborative music wiki built with GNU Artanis and Guile | `#4caf50` |
+| ![WikiMusic](png/wikimusic-64.png) | `wikimusic` | WikiMusic | Collaborative music wiki built with GNU Artanis and Guile | `#d98aa3` |
 | ![wip-site](png/wip-site-64.png) | `wip-site` | wip-site | Dependency-free maintenance and coming-soon status page | `#e08a00` |
 | ![Wolkenschloss](png/wolkenschloss-64.png) | `wolkenschloss` | Wolkenschloss | Hetzner Cloud infrastructure managed from the REST API | `#6b95d3` |
 | ![wolk-jjba](png/wolk-jjba-64.png) | `wolk-jjba` | wolk-jjba | Personal cloud and server fleet provisioned as a Guile program | `#465a6b` |

@@ -311,7 +311,7 @@ icon("welkomscherm.el", "welkomscherm.el",
 # 46. A book carrying a note and wiki brackets: music as a shared library.
 icon("wikimusic", "WikiMusic",
      "Collaborative music wiki built with GNU Artanis and Guile",
-     "leaf",
+     "blush",
      [part(rrect(3, 5, 58, 54, 5)),
       part(rrect(3, 5, 12, 54, 5), "light")],
      G(

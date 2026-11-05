@@ -49,8 +49,8 @@
       "slug": "byggsteg",
       "name": "byggsteg",
       "purpose": "Readable CI/CD orchestrator: pipelines as Lisp, streamed live",
-      "accent": "orange",
-      "colour": "#ff7f28",
+      "accent": "clover",
+      "colour": "#2f9e44",
       "svg": "svg/byggsteg.svg",
       "png": {
         "16": "png/byggsteg-16.png",
@@ -780,8 +780,8 @@
       "slug": "wikimusic",
       "name": "WikiMusic",
       "purpose": "Collaborative music wiki built with GNU Artanis and Guile",
-      "accent": "leaf",
-      "colour": "#4caf50",
+      "accent": "blush",
+      "colour": "#d98aa3",
       "svg": "svg/wikimusic.svg",
       "png": {
         "16": "png/wikimusic-16.png",

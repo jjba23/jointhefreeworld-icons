@@ -55,7 +55,7 @@ icon("bewaking", "Bewaking",
 # 3. A gear with a play triangle: build stages that run.
 icon("byggsteg", "byggsteg",
      "Readable CI/CD orchestrator: pipelines as Lisp, streamed live",
-     "orange",
+     "clover",
      cog_parts(32, 32, 20, teeth=8),
      G(
          PL("25,22 41,32 25,42", fill=FG),
