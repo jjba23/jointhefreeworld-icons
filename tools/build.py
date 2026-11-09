@@ -183,7 +183,7 @@ def readme_md():
 ![Every icon in the set](preview.png)
 
 One hand-drawn icon for every project in the jointhefreeworld collection:
-forty-nine objects, forty-nine colours, not one repeated glyph.
+fifty objects, fifty colours, not one repeated glyph.
 
 - `svg/<project>.svg` — the 64×64 source, hand-written paths, no bitmaps.
 - `png/<project>-{{16,32,48,64,128,256,512}}.png` — transparent PNG exports.
@@ -215,7 +215,7 @@ the circle.
 No two drawings are alike, and the build refuses to let them become so: two
 projects sharing a silhouette or a glyph is a build error, not a style note.
 
-## The forty-nine
+## The fifty
 
 | Icon | Folder | Name | What it is | Accent |
 | --- | --- | --- | --- | --- |

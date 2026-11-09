@@ -828,6 +828,23 @@
       }
     },
     {
+      "slug": "orpheus.el",
+      "name": "orpheus.el",
+      "purpose": "Music player for Emacs with pluggable MPD, mpv, SSH and local backends",
+      "accent": "orange",
+      "colour": "#ff7f28",
+      "svg": "svg/orpheus.el.svg",
+      "png": {
+        "16": "png/orpheus.el-16.png",
+        "32": "png/orpheus.el-32.png",
+        "48": "png/orpheus.el-48.png",
+        "64": "png/orpheus.el-64.png",
+        "128": "png/orpheus.el-128.png",
+        "256": "png/orpheus.el-256.png",
+        "512": "png/orpheus.el-512.png"
+      }
+    },
+    {
       "slug": "wolk-jjba",
       "name": "wolk-jjba",
       "purpose": "Personal cloud and server fleet provisioned as a Guile program",

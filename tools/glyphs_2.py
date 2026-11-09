@@ -359,7 +359,40 @@ icon("wolkenschloss", "Wolkenschloss",
          PL("32,18 39,20.4 32,22.8", fill=FG),
      ))
 
-# 49. A cloud holding a server rack: a personal cloud, provisioned by Lisp.
+# 49. A lyre, the instrument of the singer: music played from Emacs.
+icon("orpheus.el", "orpheus.el",
+     "Music player for Emacs with pluggable MPD, mpv, SSH and local backends",
+     "orange",
+     [part("M17.5 7C10.5 13.5 8.5 23 12.5 31.5C14.2 35 16.8 37.8 20.4 39.8"
+           "L23.6 35.4C20.8 33.4 18.6 30.8 17.4 27.6C14.6 20.8 16.4 13.4"
+           " 23 8.6z"),
+      part("M17.5 7C10.5 13.5 8.5 23 12.5 31.5C14.2 35 16.8 37.8 20.4 39.8"
+           "L23.6 35.4C20.8 33.4 18.6 30.8 17.4 27.6C14.6 20.8 16.4 13.4"
+           " 23 8.6z",
+           "main", "translate(64 0) scale(-1 1)"),
+      part(ell(32, 45, 14, 11)),
+      part(ell(32, 44.2, 10.8, 7.8), "light"),
+      part(rrect(15, 4, 34, 5.6, 2.8), "light"),
+      part(disc(12.4, 6.8, 3.2), "dark"),
+      part(disc(51.6, 6.8, 3.2), "dark")],
+     G(
+         R(25.5, 37.4, 13, 3.2, rx=1.6, fill=FG),
+         L(26, 9.8, 27.2, 37.6, sw=1.5, color=FG),
+         L(29, 9.8, 29.8, 37.6, sw=1.5, color=FG),
+         L(32, 9.8, 32, 37.6, sw=1.5, color=FG),
+         L(35, 9.8, 34.2, 37.6, sw=1.5, color=FG),
+         L(38, 9.8, 36.8, 37.6, sw=1.5, color=FG),
+         P("M16.6 13C11.6 19 11.2 26 14.6 30.6", stroke=FG, sw=1.4,
+           opacity=.35),
+         P("M47.4 13C52.4 19 52.8 26 49.4 30.6", stroke=FG, sw=1.4,
+           opacity=.35),
+         C(32, 47.8, 2.6, fill="none", stroke=FG, sw=1.4, opacity=.55),
+         C(32, 47.8, 1, fill=FG, opacity=.55),
+         C(12.4, 6.8, 1.2, fill=FG, opacity=.8),
+         C(51.6, 6.8, 1.2, fill=FG, opacity=.8),
+     ))
+
+# 50. A cloud holding a server rack: a personal cloud, provisioned by Lisp.
 icon("wolk-jjba", "wolk-jjba",
      "Personal cloud and server fleet provisioned as a Guile program",
      "storm",
