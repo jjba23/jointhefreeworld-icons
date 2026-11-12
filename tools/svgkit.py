@@ -67,6 +67,7 @@ ACCENTS = {
     "storm": "#465a6b",
     "clover": "#2f9e44",
     "blush": "#d98aa3",
+    "sand": "#c9a06b",
 }
 
 

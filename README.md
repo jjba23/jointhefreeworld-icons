@@ -3,7 +3,7 @@
 ![Every icon in the set](preview.png)
 
 One hand-drawn icon for every project in the jointhefreeworld collection:
-fifty objects, fifty colours, not one repeated glyph.
+fifty-one objects, fifty-one colours, not one repeated glyph.
 
 - `svg/<project>.svg` — the 64×64 source, hand-written paths, no bitmaps.
 - `png/<project>-{16,32,48,64,128,256,512}.png` — transparent PNG exports.
@@ -35,7 +35,7 @@ the circle.
 No two drawings are alike, and the build refuses to let them become so: two
 projects sharing a silhouette or a glyph is a build error, not a style note.
 
-## The fifty
+## The fifty-one
 
 | Icon | Folder | Name | What it is | Accent |
 | --- | --- | --- | --- | --- |
@@ -89,6 +89,7 @@ projects sharing a silhouette or a glyph is a build error, not a style note.
 | ![Wolkenschloss](png/wolkenschloss-64.png) | `wolkenschloss` | Wolkenschloss | Hetzner Cloud infrastructure managed from the REST API | `#6b95d3` |
 | ![orpheus.el](png/orpheus.el-64.png) | `orpheus.el` | orpheus.el | Music player for Emacs with pluggable MPD, mpv, SSH and local backends | `#ff7f28` |
 | ![wolk-jjba](png/wolk-jjba-64.png) | `wolk-jjba` | wolk-jjba | Personal cloud and server fleet provisioned as a Guile program | `#465a6b` |
+| ![whelk](png/whelk-64.png) | `whelk` | whelk | Wayland shell in C, GTK4 and Guile: status bar, launcher and notifications | `#c9a06b` |
 
 ## The rules of the weave
 

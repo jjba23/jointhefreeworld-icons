@@ -860,6 +860,23 @@
         "256": "png/wolk-jjba-256.png",
         "512": "png/wolk-jjba-512.png"
       }
+    },
+    {
+      "slug": "whelk",
+      "name": "whelk",
+      "purpose": "Wayland shell in C, GTK4 and Guile: status bar, launcher and notifications",
+      "accent": "sand",
+      "colour": "#c9a06b",
+      "svg": "svg/whelk.svg",
+      "png": {
+        "16": "png/whelk-16.png",
+        "32": "png/whelk-32.png",
+        "48": "png/whelk-48.png",
+        "64": "png/whelk-64.png",
+        "128": "png/whelk-128.png",
+        "256": "png/whelk-256.png",
+        "512": "png/whelk-512.png"
+      }
     }
   ]
 }

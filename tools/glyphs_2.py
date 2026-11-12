@@ -408,3 +408,21 @@ icon("wolk-jjba", "wolk-jjba",
          C(41, 33.6, 1.7, fill=DARK, opacity=.5),
          C(41, 38.4, 1.7, fill=DARK, opacity=.35),
      ))
+
+# 51. A whelk shell standing on its spire: the shell that hosts the desktop.
+icon("whelk", "whelk",
+     "Wayland shell in C, GTK4 and Guile: status bar, launcher and notifications",
+     "sand",
+     [part(ell(30, 43, 21.5, 16.5), "main", "rotate(-12 30 43)"),
+      part(ell(34, 27.5, 15, 12), "main", "rotate(-12 34 27.5)"),
+      part(ell(38.5, 16, 10, 8.4), "main", "rotate(-12 38.5 16)"),
+      part("M42.6 2.4c1.8 1.4 2.8 3.4 2.8 5.6 0 2.6-1.6 4.2-3.6 4.6"
+           "-2-.4-3.6-2-3.6-4.6 0-2.2 1-4.2 2.8-5.6z"),
+      part(ell(22.5, 46.5, 7, 12), "deep", "rotate(8 22.5 46.5)")],
+     G(
+         P("M29.5 46.5a7 12 0 1 0 -14 0a7 12 0 1 0 14 0", stroke=FG,
+           sw=1.8, opacity=.75, transform="rotate(8 22.5 46.5)"),
+         P("M35 27.5c4.4 6 5.6 15.5 3.2 24.5", stroke=FG, sw=1.8, opacity=.4),
+         P("M41 27c4 6 5 13 3 20", stroke=FG, sw=1.8, opacity=.28),
+         P("M46 39c1.6 3.4 2 7 1.4 10", stroke=FG, sw=1.6, opacity=.22),
+     ))
